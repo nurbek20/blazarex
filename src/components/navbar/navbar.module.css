@@ -1,0 +1,48 @@
+.navbar {
+  background: radial-gradient(
+    150.69% 118.33% at 123.17% 100%,
+    #c6fff1 0%,
+    #e7c8ff 100%
+  );
+}
+.menu {
+  display: flex;
+  gap: 30px;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.telegram {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.telegram img {
+  object-fit: contain;
+}
+
+.img {
+  width: 245px;
+  height: 47px;
+}
+.img img {
+    object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.avatar {
+  width: 23px;
+  height: 23px;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.russian  {
+  display: flex;
+  gap: 10px;
+}
+.russian img {
+    object-fit: contain;
+}

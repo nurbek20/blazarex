@@ -1,0 +1,148 @@
+.content {
+    background: #FFFF;
+    width: 910px;
+}
+.text {
+  max-width: 920px;
+  display: flex;
+  margin-top: 22px;
+  padding: 15px 10px;
+  border-radius: 15px 15px 0 0;
+  background: radial-gradient(
+    150.69% 118.33% at 123.17% 100%,
+    #c6fff1 0%,
+    #e7c8ff 100%
+  );
+}
+.text p {
+  width: 180px;
+}
+.cash_content {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.title {
+  font-family: "Inter";
+  margin: 15px 0 20px 0;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400;
+}
+.set {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px 0;
+}
+
+.set_btn {
+  display: flex;
+  gap: 5px;
+}
+.set_btn button {
+  padding: 6px 42px;
+  border-radius: 10px;
+}
+.set_btn button:nth-child(1) {
+  border: 1px solid #666666;
+  background: #ccfff3;
+}
+.set_btn button:nth-child(2) {
+  border: 1px solid #f9d519;
+  background: none;
+}
+.set_btn button:nth-child(3) {
+  border: 1px solid #ff004d;
+  background: none;
+}
+.content_info {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+  padding: 14px;
+}
+.usdt_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ff004d;
+  padding: 5px 0;
+}
+.adres {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding: 10px 0;
+}
+.input_wrapper {
+  position: relative;
+  display: inline-block;
+}
+.input_wrapper input {
+  width: 630px;
+  background: #f8f9fd;
+  padding: 5px 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  border-radius: 10px;
+  border: 1px solid #e7c8ff;
+}
+.input_wrapper input[type="text"] {
+  padding-right: 40px;
+}
+
+.input_wrapper button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40px;
+}
+.input_wrapper button {
+  background: radial-gradient(
+    150.69% 118.33% at 123.17% 100%,
+    #c6fff1 0%,
+    #e7c8ff 100%
+  );
+  border-radius: 10px;
+  border: none;
+}
+.input_wrapper button img{
+   object-fit: contain;
+}
+
+.qrcode {
+  width: 241px;
+  height: 236px;
+  margin: 40px;
+}
+
+.last_content {
+    margin: 20px 0 0 0;
+}
+.last_content_btn {
+    text-align: center;
+}
+.last_content_btn button{
+    background: radial-gradient(150.69% 118.33% at 123.17% 100%, #C6FFF1 0%, #E7C8FF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 10px;
+padding: 10px 30px;
+border: none;
+}
+
+

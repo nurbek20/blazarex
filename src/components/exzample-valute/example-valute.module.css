@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #CCFFF3;
+  }
+  .item p {
+    width: 180px;
+  }
+  .upDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+  }
+  
+  .itemImg {
+    display: flex;
+    gap: 9px;
+    width: 200px;
+  }
+  .itemImg img {
+    object-fit: contain;
+  }
+  .valuta_text span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #666666;
+  }
+  
+  .item_text {
+    display: flex;
+    width: 200px;
+    color: #7f00e2;
+  }
